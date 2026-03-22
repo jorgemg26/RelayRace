@@ -13,7 +13,7 @@ Each runner is executed as a thread, and teams are synchronized to ensure runner
 - Best runner overall
 - Automatic finish detection (no fixed delays)
 
-## 🧠 How It Works
+## How It Works
 - Each `Runner` is a thread
 - Each `Team` controls execution order using a shared `turn`
 - Threads wait using `wait()` until it is their turn
@@ -29,7 +29,7 @@ Each runner is executed as a thread, and teams are synchronized to ensure runner
 - Runners per team: 3 – 10
 - Time per runner: 2000 – 10000 ms
 
-## ▶️ How to Run
+## How to Run
 1. Open the project in NetBeans / IntelliJ / Eclipse
 2. Make sure the main class is relayRace.Main
 3. Run the program
@@ -37,7 +37,7 @@ Each runner is executed as a thread, and teams are synchronized to ensure runner
 
 ---
 
-## 📌 Example Output
+## Example Output
 Runner 1 from Team 1 starts
 Runner 1 from Team 1 finishes (5234 ms)
 
