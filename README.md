@@ -27,7 +27,7 @@ Each runner is executed as a thread, and teams are synchronized to ensure runner
 ## Constraints (limits ensure stable execution and avoid excessive thread usage)
 - Teams: 3 – 10
 - Runners per team: 3 – 10
-- Time per runner: 2000 – 10000 ms
+- Time per runner: 4000 – 10000 ms
 
 ## How to Run
 1. Open the project in NetBeans / IntelliJ / Eclipse
